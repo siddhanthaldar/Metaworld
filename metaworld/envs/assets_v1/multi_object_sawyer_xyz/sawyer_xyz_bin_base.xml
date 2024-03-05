@@ -3,13 +3,13 @@
 Usage:
 
 <mujoco>
-	<compiler meshdir="../meshes/sawyer" ...></compiler>
-	<include file="shared_config.xml"></include>
+    <compiler meshdir="../meshes/sawyer" ...></compiler>
+    <include file="shared_config.xml"></include>
     (new stuff)
-	<worldbody>
-		<include file="sawyer_wsg_base.xml"></include>
+    <worldbody>
+        <include file="sawyer_wsg_base.xml"></include>
         (new stuff)
-	</worldbody>
+    </worldbody>
 </mujoco>
 -->
 
