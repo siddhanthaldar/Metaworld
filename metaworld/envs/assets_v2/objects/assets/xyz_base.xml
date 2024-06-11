@@ -1,4 +1,17 @@
 <mujocoinclude>
+  <!--
+  Usage:
+
+  <mujoco>
+  	<compiler meshdir="../meshes/sawyer" ...></compiler>
+  	<include file="shared_config.xml"></include>
+      (new stuff)
+  	<worldbody>
+  		<include file="sawyer_xyz_base.xml"></include>
+          (new stuff)
+  	</worldbody>
+  </mujoco>
+  -->
 
       <camera pos="0 0.5 1.5" name="topview" />
       <camera name="corner" mode="fixed" pos="-0.5 0.2 0.4" xyaxes="-1 1 0 -0.2 -0.2 -1"/>
